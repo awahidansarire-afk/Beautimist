@@ -1,121 +1,282 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Beautimist | Aesthetic & Beauty Technology Solutions</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Beautimist | Aesthetic Machines & Clinic Solutions</title>
 
 <style>
 
 body{
-font-family: Arial, sans-serif;
 margin:0;
-background:#f4f4f4;
+font-family:Arial, Helvetica, sans-serif;
+background:#f5f7fa;
 color:#333;
 }
 
-.container{
-max-width:900px;
+header{
+background:#111;
+color:white;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+margin:0;
+font-size:24px;
+letter-spacing:1px;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-size:15px;
+}
+
+nav a:hover{
+color:#00bcd4;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),
+url("https://images.unsplash.com/photo-1556228578-8c89e6adf883");
+background-size:cover;
+background-position:center;
+color:white;
+padding:120px 8%;
+text-align:center;
+}
+
+.hero h2{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+max-width:700px;
 margin:auto;
+}
+
+.section{
+padding:70px 8%;
 background:white;
-padding:40px;
-margin-top:40px;
+}
+
+.section h2{
+text-align:center;
 margin-bottom:40px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
+font-size:32px;
 }
 
-h1{
-color:#222;
-margin-bottom:5px;
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
 }
 
-h3{
-margin-top:30px;
+.card{
+background:#f9f9f9;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
 }
 
-ul{
-line-height:1.8;
+.card h3{
+margin-top:0;
 }
 
-.footer{
-margin-top:40px;
+.contact{
+background:#111;
+color:white;
+text-align:center;
+padding:60px 8%;
+}
+
+.contact p{
+margin:10px 0;
+}
+
+footer{
+background:#000;
+color:#aaa;
+text-align:center;
+padding:20px;
 font-size:14px;
-color:#666;
-border-top:1px solid #eee;
-padding-top:20px;
 }
 
 </style>
-
 </head>
 
 <body>
 
-<div class="container">
+<header>
 
 <h1>Beautimist</h1>
-<h3>Aesthetic & Beauty Technology Solutions for Clinics & Salons</h3>
+
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#machines">Machines</a>
+<a href="#training">Training</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h2>Beautimist Healthcare & Aesthetic Solutions</h2>
 
 <p>
-Beautimist supplies professional aesthetic and cosmetic equipment for beauty clinics and salons. 
-We also provide installation, training, and service support for aesthetic machines.
+Professional supplier of aesthetic machines, clinic setup solutions,
+technical service, and training for dermatology and beauty clinics across India.
 </p>
 
-<h3>Our Services</h3>
+</section>
 
-<ul>
-<li>Aesthetic Machine Supply</li>
-<li>Machine Installation</li>
-<li>Clinic Setup Consultation</li>
-<li>Training for Salon & Clinic Staff</li>
-<li>Service & Maintenance Support</li>
-</ul>
 
-<h3>Machines We Work With</h3>
+<section class="section" id="services">
 
-<ul>
-<li>Diode Laser Hair Removal Systems</li>
-<li>HIFU Skin Tightening Systems</li>
-<li>Hydrafacial Systems</li>
-<li>Microneedling RF Systems</li>
-<li>CO2 Fractional Laser Systems</li>
-<li>Cryolipolysis Slimming Machines</li>
-</ul>
+<h2>Our Services</h2>
 
-<h3>Installation & Training</h3>
+<div class="grid">
 
+<div class="card">
+<h3>Machine Supply</h3>
 <p>
-Beautimist provides complete installation, operational training, and service support for aesthetic machines. 
-We assist beauty clinics and salons in selecting the right technology and ensure proper setup for professional use.
+Professional aesthetic machines including laser hair removal,
+hydrafacial, HIFU, RF microneedling and CO2 laser systems.
 </p>
+</div>
 
-<h3>Why Choose Beautimist</h3>
-
-<ul>
-<li>Professional guidance for clinic owners</li>
-<li>Reliable aesthetic equipment</li>
-<li>Installation and hands-on training</li>
-<li>After-sales technical support</li>
-</ul>
-
-<h3>Contact</h3>
-
+<div class="card">
+<h3>Installation</h3>
 <p>
-
-Phone / WhatsApp: +91-8180002995<br><br>
-
-Office Address:<br>
-Office 204, Triaa Vasantam City Center<br>
-Dhanori, Pune – 411015<br>
-Maharashtra, India
-
+Complete machine installation and setup for clinics and aesthetic centers.
 </p>
+</div>
 
-<div class="footer">
+<div class="card">
+<h3>Service & Repair</h3>
+<p>
+Technical service and maintenance support for aesthetic machines.
+</p>
+</div>
 
-© Beautimist 
+<div class="card">
+<h3>AMC Support</h3>
+<p>
+Annual maintenance contracts to keep clinic machines running smoothly.
+</p>
 </div>
 
 </div>
+
+</section>
+
+
+<section class="section" id="machines">
+
+<h2>Aesthetic Machines</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Diode Laser</h3>
+<p>Professional laser hair removal systems.</p>
+</div>
+
+<div class="card">
+<h3>Hydra Facial</h3>
+<p>Multi function hydra dermabrasion machines.</p>
+</div>
+
+<div class="card">
+<h3>HIFU</h3>
+<p>Skin tightening and lifting technology.</p>
+</div>
+
+<div class="card">
+<h3>RF Microneedling</h3>
+<p>Advanced skin rejuvenation treatment device.</p>
+</div>
+
+<div class="card">
+<h3>CO2 Laser</h3>
+<p>Skin resurfacing and scar treatment system.</p>
+</div>
+
+<div class="card">
+<h3>Cryolipolysis</h3>
+<p>Fat freezing body contouring machine.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section" id="training">
+
+<h2>Training & Consulting</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Clinic Setup Consulting</h3>
+<p>
+Complete guidance for starting aesthetic clinics.
+</p>
+</div>
+
+<div class="card">
+<h3>Machine Training</h3>
+<p>
+Professional training for clinic staff and technicians.
+</p>
+</div>
+
+<div class="card">
+<h3>Buying Consultation</h3>
+<p>
+Helping clinics choose the right machines and technology.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+<h2>Contact Beautimist</h2>
+
+<p><b>Phone:</b> +91 8180002995</p>
+
+<p><b>Office Address:</b><br>
+Office 204, Triaa Vasantam City Center,<br>
+Dhanori, Pune – 411015, India
+</p>
+
+<p>Email: info@beautimist.in</p>
+
+</section>
+
+
+<footer>
+
+© 2026 Beautimist  
+All Rights Reserved
+
+</footer>
+
 
 </body>
 </html>
